@@ -1,0 +1,1224 @@
+.landing-alert {
+    margin-bottom: 0;
+}
+
+.page-header {
+    background-color: #B2AFAB;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 999px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .filter::after {
+        background-color: rgba(0, 0, 0, 0.5);
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+    &.page-header-small {
+        min-height: 65vh !important;
+        max-height: 700px;
+    }
+    &.page-header-xs {
+        min-height: 40vh !important;
+    }
+    &.section-dark {
+        .content-center,
+        .category-absolute {
+            z-index: 1;
+        }
+    }
+}
+
+.page-header .motto {
+    text-align: left;
+    z-index: 3;
+    color: #fff;
+    position: relative;
+}
+
+.landing-section {
+    padding: 100px 0;
+    z-index: 1;
+}
+
+.section-buttons {
+    z-index: 1;
+}
+
+.landing-section .btn-simple {
+    padding: 0;
+}
+
+.landing-section .column {
+    padding: 0 75px 0 25px;
+}
+
+.team-player .img-circle,
+.team-player .img-thumbnail {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form label {
+    margin-top: 15px;
+}
+
+.contact-form .btn {
+    margin-top: 30px;
+}
+
+.navbar-relative {
+    position: relative;
+    z-index: 2;
+}
+
+#register-navbar a {
+    color: #FFF;
+}
+
+.register-background .container {
+    margin-top: 11%;
+    position: relative;
+    z-index: 3;
+}
+
+.register-footer {
+    bottom: 20px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: transparent;
+    color: $white-color;
+}
+
+.register-footer .fa-heart {
+    color: #EB5E28;
+}
+
+.register-card label {
+    margin-top: 15px;
+}
+
+.register-card .title {
+    color: #B33C12;
+    text-align: center;
+}
+
+.register-card .btn {
+    margin-top: 30px;
+}
+
+.register-card .forgot {
+    text-align: center;
+}
+
+.profile-content {
+    position: relative;
+}
+
+.owner {
+    text-align: center;
+}
+
+.owner .avatar {
+    padding: 15px;
+    max-width: 180px;
+    margin: -85px auto 0;
+    display: inline-block;
+}
+
+.owner .name h4 {
+    margin-top: 10px;
+}
+
+.profile-tabs {
+    margin: 50px 0;
+    min-height: 300px;
+}
+
+#following h3 {
+    margin: 20px 0 40px 0;
+}
+
+#follows .follows .unfollow .checkbox {
+    margin-top: -15px;
+}
+
+#follows .follows h6 {
+    margin-top: 15px;
+}
+
+.follows hr {
+    margin-top: 10px;
+}
+
+.alert h5 {
+    // margin-bottom: 10px;
+}
+
+.title-brand {
+    max-width: 730px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    .type {
+        position: absolute;
+        font-size: 20px;
+        background: #132026;
+        padding: 6px 10px;
+        border-radius: 4px;
+        top: 0;
+        font-weight: 600;
+        margin-top: 10px;
+        right: -15px;
+    }
+}
+
+.presentation-title {
+    font-size: 8em;
+    font-weight: 700;
+    margin: 0;
+    color: #FFFFFF;
+    background: #fbf8ec;
+    background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+    background: -ms-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+    background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.presentation-subtitle {
+    font-size: 1.7em;
+    color: #FFFFFF;
+}
+
+.category-absolute {
+    position: absolute;
+    text-align: center;
+    top: 100vh;
+    margin-top: -60px;
+    padding: 0 15px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    .creative-tim-logo {
+        max-width: 140px;
+        top: -2px;
+        left: 3px;
+        position: relative;
+    }
+}
+
+.fog-low {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: -35%;
+    margin-bottom: -50px;
+    width: 110%;
+    opacity: .85;
+    img {
+        width: 100%;
+    }
+    &.right {
+        margin-left: 30%;
+        opacity: 1;
+    }
+}
+
+.page-header {
+    .content-center {
+        margin-top: 85px;
+    }
+}
+
+.moving-clouds {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 250.625em;
+    height: 43.75em;
+    -webkit-animation: cloudLoop 80s linear infinite;
+    animation: cloudLoop 80s linear infinite;
+}
+
+@keyframes cloudLoop {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0)
+    }
+}
+
+.following {
+    img {
+        max-width: 70px;
+    }
+}
+
+.profile-content {
+    & .tab-content {
+        & .tab-pane {
+            min-height: 200px;
+        }
+        & #tweets,
+        #connections,
+        #media {
+            height: 100%;
+        }
+    }
+}
+
+//AboutUS css section
+
+.home{
+    font-weight: 600;
+    margin: 5px 0px;
+    font-size: 28px;
+    color:#000000;
+    text-align: center;
+    }
+    
+    .home1{
+    position: relative;
+    color:#66615B;
+    font-size: 50px !important;
+    z-index: 1;
+    }
+    .home2{
+        position: absolute;
+        color: black;
+        z-index: 1;
+        font-size: 21px;
+        opacity: 1;
+    }
+
+.home-border{
+    border: 1px solid #2F3077;
+    width: 100%!important;
+}
+.allmainnheading1{
+    position: absolute;
+    opacity: 0.2;
+    font-size: 50px;
+    text-align: center;
+    left: 30%;
+    bottom: 10%;
+    font: Myanmar;
+    font-weight: bolder;
+   
+}
+.allmainnheading2{
+    position:relative;
+    opacity: 1;
+    font-size: 25px;
+    color: black!important;
+    left: 36%;
+    bottom: 30%;
+    font: Myanmar!important;
+    font-weight: bolder;
+}
+.mainheading{ 
+    padding-bottom: 3%;
+    padding-top: 1%;
+    font-size:2.6em;
+    max-width: 100%!important;
+    padding-left: 2%;  
+}
+.mainheadingbtn{
+    padding-bottom: 3%;
+    font-size:2.6em;
+    max-width: 100%!important;
+    padding-left: 10%; 
+
+}
+.aboutcontainer1{
+    background-color: #FFBE14;
+    max-width: 100%!important;
+
+}
+.abouthead{
+    color:black!important;
+ 
+    font-size:25px;
+    font-weight: bolder;
+    padding-top: 5%;
+    padding-bottom:2%;
+    padding-left: 10%;
+    padding-right: 5%;
+   
+}
+.Abouttext{
+    color:black;
+    font-size: 17px;
+     font-style: italic!important;
+     font-family: sans-serif;
+     padding-left: 10%;
+     padding-right: 5%;
+     font-weight: 500; 
+     font-weight: bolder;
+     line-height: 22px;
+     
+}
+.vid-border{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border: 4px solid white;
+    overflow: visible;
+    border-radius: 2%;
+}  
+ .aboutvideo{
+     padding-top: 2%;
+     padding-bottom: 2%;
+    text-align: center;
+    padding-right: 6%;
+ }
+ .allmainnheadingHappy1{
+    position: absolute;
+    opacity: 0.2;
+    font-size: 50px;
+    text-align: center;
+    left: 20%;
+    bottom: 10%;
+    font: Myanmar;
+    font-weight: bolder;
+
+ }
+ .allmainnheadingHappy2{
+    position:relative;
+    opacity: 1;
+    font-size: 28px;
+    color:black !important;
+    left: 30%;
+    bottom: 30%;
+    font: Myanmar;
+    font-weight: bolder;
+ }
+ //about media query
+ @media screen and (max-width: 426px) and (min-width: 320px) {
+ .allmainnheading1 {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 49px;
+    left: -1%;
+    bottom: 10%;
+ }
+ .allmainnheading2{
+    font-size: 21px;
+    bottom: 43%;
+    left: 29%!important;
+    }
+}
+@media screen and (max-width: 572px) and (min-width: 426px) {
+    .allmainnheading1 {left: 7%;}
+    .allmainnheading2 {left: 23%;bottom: 39%;}
+}
+@media screen and (max-width: 851px) and (min-width: 573px) {
+    .allmainnheading1 {left: 13%;}
+    .allmainnheading2 { left: 26%; bottom: 32%;}
+}
+
+@media screen and (max-width:1024px ) and (min-width: 851px) {
+    .allmainnheading2 { left: 39%;}
+}
+//Happy Hours mediaQuery
+@media screen and (max-width: 426px) and (min-width: 320px) {
+ .allmainnheadingHappy1 {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 32px;
+    left: -17%;
+    bottom: 10%;
+    }   
+    .allmainnheadingHappy2 {
+        position: relative;
+        opacity: 1;
+        font-size: 22px;
+        color: #2F3077 !important;
+        left: 17%;
+        bottom: 15%;
+        font: Myanmar;
+        font-weight: bolder;
+    }
+}
+@media screen and (max-width: 560px) and (min-width: 426px) {
+.allmainnheadingHappy1 {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 37px;
+    text-align: center;
+    left: 12%;
+    bottom: 10%;
+    font: Myanmar;
+    font-weight: bolder;}
+    .allmainnheadingHappy2 { bottom: 22%;}
+}
+
+@media screen and (max-width:701px) and (min-width: 561px) {
+.allmainnheadingHappy1 {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 26px;
+    text-align: center;
+    left: 3%;
+    bottom: 17%;}
+    .allmainnheadingHappy2 {
+        font-size: 16px;
+        left: 19%;
+        bottom: 21%;}
+}  
+
+@media screen and (max-width:901px) and (min-width: 701px) {
+.allmainnheadingHappy1 {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 30px;
+    text-align: center;
+    left: 14%;
+    bottom: 25%;}
+    .allmainnheadingHappy2 {
+        position: relative;
+        opacity: 1;
+        font-size: 21px;
+        color: black !important;
+        left: 22%;
+        bottom: 25%;}
+}    
+@media screen and (max-width:1024px) and (min-width: 901px) {
+    .allmainnheadingHappy1 {
+        position: absolute;
+        opacity: 0.2;
+        font-size: 42px;
+        text-align: center;
+        left: 7%;
+        bottom: 10%;}
+        .allmainnheadingHappy2 {
+            position: relative;
+            opacity: 1;
+            font-size: 28px;
+            color: black !important;
+            left: 20%;
+            bottom: 23%;}
+}
+@media screen and (max-width:905px) and (min-width: 902px) {
+.allmainnheadingHappy1 {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 41px;
+    text-align: center;
+    left: 7%;
+    bottom: 16%;}
+} 
+@media screen and (max-width:1200px) and (min-width: 1024px) {
+.allmainnheadingHappy1 {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 40px;
+    text-align: center;
+    left: 13%;}
+    .allmainnheadingHappy2 {
+        position: relative;
+        opacity: 1;
+        font-size: 20px;
+        color: black !important;
+        left: 27%;
+        bottom: 21%;}
+} 
+@media screen and (max-width:1440px) and (min-width: 1201px) {
+    .allmainnheadingHappy1 {
+        position: absolute;
+        opacity: 0.2;
+        font-size: 44px;
+        text-align: center;
+        left: 13%;}
+        .allmainnheadingHappy2 {
+            position: relative;
+            opacity: 1;
+            font-size: 24px;
+            color: black !important;
+            left: 28%;
+            bottom: 27%;}
+
+}
+
+//Happy Hours section
+
+.happymainsec{
+    padding-top: 3%;
+}
+.happyslider{
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+}
+.sliderimg{
+    float: left;
+    margin: 5px;
+}
+
+//Laws Home css
+.mainheading1{
+    padding-bottom: 4%;
+    padding-top: 3%;
+    font-size:2.6em;
+    text-align: center;
+    max-width: 100%!important;  
+}
+.morebtn{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center!important;
+    text-decoration: none;
+    font-size: 16px;
+}
+.img1 {
+        left: 10px;
+        z-index: 1;
+}
+.img2 
+{
+    position:absolute;
+    top: 118px;
+    left: 49px;
+    z-index: 2;
+  }
+.img3
+{
+    position:absolute;
+    top: 10px;
+    left: 121px;
+    z-index: 3;
+  }
+  .lawnstext{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    z-index: 2;  
+  }
+    .lawncard1 {
+        font-size: 13px;
+        font-family: sans-serif;
+        text-align: center;
+        padding-right: 10%;
+        padding-top: 7%;
+}
+.lawncard2{
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 7%;
+}
+.cardreadbtn {
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: 25%;
+}
+.homereadmorebtn{
+    padding-top: 10%;
+}
+.homereadmorebtncreter{
+    padding-top: 7%;
+    padding-left: 1%;
+}
+.homecardheading{
+    font-size: 14px;
+      text-align: center;
+      padding-right: 16%;
+  }
+  @media screen and (min-width:400px) and (max-width:504px){
+    .lawnstext {
+        top: 198px !important;
+        left: 57px;
+    }
+
+  }
+  @media screen and (min-width: 505px)and (max-width:576px) {
+  
+    .lawnstext {
+        position: absolute;
+        top: 279px!important;
+        left: 64px;
+        z-index: 2;
+    }
+}
+@media screen and (min-width:770px) and (max-width:845px){
+    .lawnstext {
+        top: 82px!important;
+        left: 11px;}
+    .homecardheading {
+            font-size: 11px;}
+            .lawncard1 {
+                font-size: 10px;
+            }
+    .lawncard2 {font-size: 11px;}
+  }
+  @media screen and (min-width:768px) and (max-width:778px){
+  .lawnstext {top: 70px;left: 23px;}
+    .homecardheading { font-size: 10px;}
+    .lawncard1 {font-size: 11px;padding-top: 0%;}
+    .lawncard2 {font-size: 11px;}
+  }
+@media screen and (min-width:845px) and (max-width:902px){
+  .lawnstext {top: 94px;left: 21px;}
+    .homecardheading { font-size: 11px;}
+    .lawncard1 {font-size: 10px;}
+    .lawncard2 {font-size: 10px;}
+  } 
+  @media screen and (min-width:902px) and (max-width:1100px){
+    .lawnstext {
+        position: absolute;
+        top: 114px;
+        left: 28px;}
+     .homecardheading {font-size: 11px;}
+    .lawncard1{font-size: 11px;}
+    .lawncard2 {font-size: 12px;}
+  }
+ 
+//  Lawns component/Page css
+
+
+.comlawnstext{
+    position: absolute;
+    top: 68px;
+    left: 34px;
+    z-index: 2;
+}
+.comcardreadbtn{
+    font-weight: bold;
+    color: black!important;
+    padding-left: 20%;
+  }
+  .comcardheading{
+    padding-top: 28%;
+    font-weight: bold !important;
+    text-align: center;
+
+}
+    .lawnimg1 {
+            left: 10px;
+            z-index: 1;
+        }
+    .lawnimg2 
+        {
+        position:absolute;
+        top: 70px;
+        left: 30px;
+        z-index: 2;
+        }
+    .lawnimg3
+        {
+        position:absolute;
+        top: 10px;
+        left: 100px;
+        z-index: 3;
+        }
+  .Lawnpagebanner1{
+        max-width: 100%!important;
+        background-image: url("../../img/LawnsPagebanner.png");
+  }
+  .lawnsection1{
+      padding-top: 5%;   
+      padding-bottom: 5%;
+     
+  }
+  .lawnpage-video-text{
+      font-size: 16px;
+    font-style: normal;
+    color: black!important;
+    top: 5%;
+    font-weight: bold;
+    padding-left: 5%;
+  }
+  .vid-borderlawns{
+    position: relative;
+    height: 260px;
+    width: 95%;
+    border: 4px solid black;
+    overflow: visible;
+    border-radius: 3%;
+  }
+ .lawnspageplanning{
+     font-weight: bold;
+     font-family: sans-serif;
+ }
+ .lawnsection3txt{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+ }
+.cardheading{
+    padding-top: 10%;
+    font-weight: bold!important;
+}
+.cardtxt{
+    font-size: 16px;
+    font-family: sans-serif;
+    /* color: black !important; */
+    /* font-weight: bold; */
+    text-align: center;
+}
+.decorcardheading{
+    padding: 20px;
+    text-align: center;
+}
+.decorcardheading1{
+    padding: 20px;
+    text-align: center;
+}
+.comcateredheading{
+    padding-left:30%;
+    padding-top:10%;
+}
+//Lawn Component/page media queries
+@media screen and (max-width: 575px) and (min-width: 500px){
+    .comcardheading {
+        padding-top: 40%;
+        font-weight: bold !important;
+        text-align: center;
+        font-size: 18px;
+    }
+    .cardtxt {
+        font-size: 17px;}
+    .comcardreadbtn {
+            font-weight: bold;
+            font-size: 14px;
+            color: black !important;
+            padding-left: 34%;}
+    .decorcardheading1 {
+                font-size: 23px;
+                text-align: center;}
+    .cardreadbtn {font-weight: bold;
+                    font-size: 13px;
+                    padding-left: 33%;}
+    .comcateredheading {
+        padding-left: 30%;
+        padding-top: -6%;
+        font-size: 20px;}    
+    .cardheading {
+            padding-top: -5%;
+            font-size: 19px;font-weight: bold !important;}   
+}
+@media screen and (max-width: 770px) and (min-width: 576px){
+    .lawnstext {
+        position: absolute;
+        top: 92px;
+        left: 36px;
+        z-index: 2;}
+        .comlawnstext {
+            position: absolute;
+            top: 53px;
+            left: 21px;}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 770px){
+    .cardtxt {
+        font-size: 13px;}
+        .cardreadbtn {
+            font-weight: bold;
+            font-size: 13px;}
+            .lawnstext {
+                position: absolute;
+                top: 83px;
+                left: 28px;}
+}
+@media screen and (max-width: 980px) and (min-width: 320px){
+.lawnpage-video-text {
+    font-size: 10px;
+    font-style: normal;
+    color: black !important;
+    top: 5%;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-bottom: 2%;}
+}
+//Gallary Page CSS
+
+.allmainnheading1Gallary {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 73px;
+    text-align: center;
+    left: 21%;
+    bottom: -14%;
+    font: Myanmar;
+    font-weight: bolder;
+}
+.allmainnheadinggallary1{
+    position: absolute;
+    opacity: 0.2;
+    font-size: 50px;
+    text-align: center;
+    left: 15%;
+    bottom: 10%;
+    font: Myanmar;
+    font-weight: bolder;
+}
+.allmainnheadinggallary2{
+    position:relative;
+    opacity: 1;
+    font-size: 25px;
+    color: #2F3077!important;
+    left: 36%;
+    bottom: 30%;
+    font: Myanmar;
+    font-weight: bolder;
+}
+
+.allmainnheading2Gallary{
+    position:relative;
+    opacity: 1;
+    font-size: 25px;
+    color: black!important;
+    left: 36%;
+    bottom: 30%;
+    font: Myanmar;
+    font-weight: bolder;
+}
+.vid-borderlawns1{
+    position: relative;
+    height: 260px;
+    width: 108%;
+    border: 4px solid #FFBE14;
+    overflow: visible;
+    border-radius: 3%;
+  }
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .allmainnheadinggallary1 {
+        position: absolute;
+        opacity: 0.2;
+        font-size: 28px;
+        text-align: center;
+        left: -7%;
+        bottom: 46%;
+        font: Myanmar;
+        font-weight: bolder;
+        }
+.allmainnheading2 {
+    position: relative;
+    opacity: 1;
+    font-size: 18px;
+    color: #2F3077 !important;
+    left: 9%;
+    bottom: 46%;
+    font: Myanmar;
+    font-weight: bolder;
+    }
+
+.allmainnheading1Gallary {
+    position: absolute;
+    opacity: 0.2;
+    font-size: 42px;
+    text-align: center;
+    left: -9%;
+    bottom: 10%;
+    font: Myanmar;
+    font-weight: bolder;
+}
+.allmainnheading2Gallary {
+    position: relative;
+    opacity: 1;
+    font-size: 25px;
+    color: #2F3077 !important;
+    left: 6%;
+    bottom: 30%;
+    font: Myanmar;
+    font-weight: bolder;
+    }
+}
+
+
+//footer Css
+.footerimg{
+   
+    background-image: url(../../img/footer.png);
+    background-position: center;
+    background-size: cover; 
+    background-color: black; 
+}
+.footerrow2{
+   text-align: justify;
+}
+.footerrow3{
+   padding-top:10%;
+   padding-left:5%;
+}
+.footerul{
+    padding-top:15%;
+}
+.footerrow4{
+    padding-right:5%;
+    padding-top:10%;
+}
+.footeraddress{
+    color:white;
+    padding-left:5%;
+    font-weight:bolder;
+}
+.footeraddressinfo{
+    padding-left:4%;
+    color:white;
+    font-weight:bolder;
+}
+.footercontainer2{
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.footercontainer2txt{
+    text-align:justify;
+    padding-right:30%;
+    font-size:13px;
+    padding-left:5%;
+    font-style:italic;
+    color:black;
+    font-family:sans-serif;
+}
+.footerstaycol{
+    padding-top:3%;
+    font-weight:bolder;
+}
+.stayupdatetxt{
+    padding-left:5%;
+    color:#2F3077; 
+}
+.footerlinks{
+    padding-bottom: 5%;
+    font-weight: bold;
+    color: white!important; 
+}
+.footersocialicons1{
+    font-size:25px;
+}
+.footerinput{
+    position: absolute;
+    width:80%;
+}
+.footerrow6{
+    background-color:black;
+    padding-left:5%;
+    padding-right:5%;
+}
+.footersubmitbtn{
+    position: relative;
+   float: right!important;
+    background-color: #2F3077;
+    border-radius: 40px; 
+}
+.lastcol{
+    color:'white';
+}
+.innertxt {
+    padding-left: 16%;
+    text-align:justify;
+}
+.innertxt1{
+    padding-left: 20%;
+    text-align: justify;
+}
+.innertxt2{
+    padding-left: 25%;
+    text-align: justify;
+}
+//Footer Media queries
+@media screen and (max-width: 425px) and (min-width: 320px) {
+        .footercontainer2txt {
+            text-align: center;
+            padding-right: 4%;
+            padding-left: 5%;
+            padding-top: 7%;
+            padding-bottom: 8%;}
+        .footercontainer2 {
+                padding-bottom: 9%;
+            }
+            .footerstaycol {
+                text-align: center;}
+}
+
+@media screen and (max-width: 580px) and (min-width: 320px) {
+.footerres{
+        padding-left: 5%;
+        }
+  .innertxt{
+    padding-left: 12%;
+  }      
+  .innertxt1{
+    padding-left: 32%;
+  }
+  .innertxt2{
+    padding-left: 34%;
+  }
+  .footerstaycol { padding-left: 7%;}
+  .inputbtntxt{
+    padding-left: 7%;
+    padding-right: 13%;
+  }
+ 
+}
+@media screen and (max-width: 580px) and (min-width:576px ) {
+    .footerinput {
+        position: initial;
+        width: 143%!important;}
+        .stayupdatetxt { font-size: 7px;}
+}    
+@media screen and (max-width: 994px) and (min-width:578px ) {
+    .footerinput {
+        position: initial;
+        width: 100%;}
+        .stayupdatetxt { font-size: 7px!important;}
+        .footerstaycol {padding-left: 5%;font-weight: bold;}     
+}
+@media screen and (max-width: 570px) and (min-width:320px ) {
+    .footerrow6 {text-align: center;}
+    .footercontainer2txt {
+        text-align: justify;
+        padding-right: 0%!important; 
+    }
+}  
+@media screen and (max-width:575px) and (min-width:570px ) {
+    .footerrow6 {
+        background-color: black;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center!important;
+    }
+    .footercontainer2txt {
+        text-align: justify;
+        padding-right: 0%!important; 
+        font-size: 13px;
+        padding-left: 5%;
+        font-style: italic;
+        color: black;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width:970px) and (min-width:850px ) {
+    .lastcol{
+    padding-right: 1%;
+    }
+
+}
+//UpArrow css
+.scroll-up-arrow {
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.scroll-to-top {
+      bottom: 10%;
+    right: 0.5rem;
+    animation: fadeIn 700ms ease-in-out 1s both;
+    cursor: pointer;
+    border-radius: 50% !important;
+    z-index: 100;
+    transition: all .5s linear;
+    transform: translateY(55px);
+    transform: translateY(0)!important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+//Top Nav Css
+.topnavcircleimg{
+    position: relative;
+    z-index: 1;
+   
+}
+//Basketball css
+.mainheadingbasket{ 
+ 
+    padding-top: 1%;
+    font-size:2.6em;
+    max-width: 100%!important;
+    padding-left: 2%;  
+}
+.allmainnheadingbasket1{
+    position: absolute;
+    opacity: 0.2;
+    font-size: 69px;
+    text-align: center;
+    left: 12%;
+    bottom: -2%;
+    font: Myanmar;
+    font-weight: bold;
+}
+.allmainnheadingbasket2{
+    position:relative;
+    opacity: 1;
+    font-size: 28px;
+    color: black !important;
+    left: 36%;
+    bottom: 38%;
+    font: Myanmar!important;
+    font-weight: bolder;
+}
+.basketsubheading{
+    text-align:center;
+    font-family: sans-serif;
+    color: #2F3077;
+    font-weight: bolder;  
+}
+.basketsection1{
+    background-image: url(../../img/footer.png);
+}
+.basketsection2row{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+.basketsection2{
+    background-color: #FFBE14;
+}
+.basketsection2para1{
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    font-family: sans-serif;  
+}
+.basketsection2para2{
+    font-weight: bolder;
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 3%;
+    padding-bottom: 5%; 
+}
